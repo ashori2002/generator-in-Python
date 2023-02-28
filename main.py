@@ -1,9 +1,6 @@
 def generator():
-    yield 1
-    yield 2
-    yield 3
-
-print(list(generator()))
+    for i in range(10):
+        yield i
 
 for i in generator():
     print(i)
