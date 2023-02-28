@@ -5,3 +5,5 @@ def generator():
 
 print(list(generator()))
 
+for i in generator():
+    print(i)
