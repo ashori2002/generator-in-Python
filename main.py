@@ -1,6 +1,5 @@
-def generator():
-    for i in range(10):
-        yield i
 
-for i in generator():
-    print(i)
+x = [i * 2 for i in range(10)]
+y = list(i ** 2 for i in range(10))
+print(x)
+print(y)
